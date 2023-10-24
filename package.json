@@ -1,7 +1,7 @@
 {
-  "name": "use-use-event-bus-hook",
+  "name": "use-event-bus-hook",
   "version": "0.0.0",
-  "description": "This react hook helps to ",
+  "description": "This React hook enables the use of the event bus pattern in React with zero external dependencies",
   "author": "Pulkit Chadha",
   "license": "Apache-2.0",
   "repository": "https://github.com/Pulkitchadha/use-event-bus-hook",
@@ -14,6 +14,7 @@
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
+    "bump": "npm version",
     "test": "jest",
     "coverage": "npm test -- --coverage",
     "prepublishOnly": "npm run build"
@@ -63,8 +64,5 @@
     "react hooks",
     "typescript",
     "npm"
-  ],
-  "dependencies": {
-    "prop-types": "^15.7.2"
-  }
+  ]
 }

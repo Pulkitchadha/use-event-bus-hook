@@ -1,2 +1,2 @@
 export { useEventBus } from './hooks/useEventBus';
-export { EventBus } from './helpers/eventBus';
+export { default as EventBus } from './helpers/eventBus';
