@@ -10,7 +10,7 @@ class EventBus {
         document.addEventListener(event, callback, { once: true });
     }
 
-    emit(event: IEvent, data) {
+    emit(event: IEvent, data?) {
         document.dispatchEvent(new CustomEvent(event, { detail: data }));
     }
 
