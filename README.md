@@ -1,5 +1,5 @@
 # useEventBusHook
-> This React hook enables the use of the event bus pattern in React with zero external dependencies and ensures automatic event listener removal during cleanup, preventing memory leaks.
+> This hook enables the use of the event bus pattern in React with zero external dependencies and ensures automatic event listener removal during cleanup, preventing memory leaks.
 
 ## How to use it:
 
@@ -46,7 +46,7 @@
 
 | Property           | Description                        | Type                  
 | :------------------ |:----------------------------------:| :---------------------:|
-| eventName          | Event Name          | string  |  |
+| name          | unique event name         | string  |  |
 | handler            | Trigger when event is captured  | function(event) |
 
 

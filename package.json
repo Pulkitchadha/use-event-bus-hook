@@ -1,7 +1,7 @@
 {
   "name": "use-event-bus-hook",
   "version": "0.0.1",
-  "description": "This React hook enables the use of the event bus pattern in React with zero external dependencies",
+  "description": "This hook enables the use of the event bus pattern in React with zero external dependencies",
   "author": "Pulkit Chadha",
   "license": "Apache-2.0",
   "repository": "https://github.com/Pulkitchadha/use-event-bus-hook",
